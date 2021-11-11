@@ -8,7 +8,7 @@
             android:title="@string/texto_switch" />
         <ListPreference
             android:defaultValue="1"
-            android:entries="@array/paises"
+            android:entries="@array/tipos_visualizacion"
             android:entryValues="@array/paises"
             android:key="list_preference_1"
             android:title="@string/texto_listado" />
