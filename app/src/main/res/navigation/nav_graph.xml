@@ -22,4 +22,13 @@
             android:name="tittle"
             app:argType="string" />
     </fragment>
+    <fragment
+        android:id="@+id/acercaDeFragment"
+        android:name="com.dvj.paises.AcercaDeFragment"
+        android:label="@string/acerca_de"
+        tools:layout="@layout/fragment_acerca_de" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.dvj.paises.SettingsFragment"
+        android:label="Configuración" />
 </navigation>
